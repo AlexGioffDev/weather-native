@@ -36,6 +36,15 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "fe391724-79a2-40e0-8597-271c15ca4b78"
+      }
+    },
+    "owner": "alex_giof"
   }
 }
