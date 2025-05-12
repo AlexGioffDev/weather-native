@@ -23,19 +23,19 @@ export default function HomeScreen() {
   function getAirQualityLevel(index: number) {
     switch (index) {
       case 1:
-        return { label: "Good", color: "#4CAF50" }; // green
+        return { label: "Good", color: "#4CAF50" };
       case 2:
-        return { label: "Moderate", color: "#FFEB3B" }; // yellow
+        return { label: "Moderate", color: "#FFEB3B" };
       case 3:
-        return { label: "Unhealthy (Sensitive)", color: "#FF9800" }; // orange
+        return { label: "Unhealthy (Sensitive)", color: "#FF9800" };
       case 4:
-        return { label: "Unhealthy", color: "#F44336" }; // red
+        return { label: "Unhealthy", color: "#F44336" };
       case 5:
-        return { label: "Very Unhealthy", color: "#9C27B0" }; // purple
+        return { label: "Very Unhealthy", color: "#9C27B0" };
       case 6:
-        return { label: "Hazardous", color: "#6D4C41" }; // brown
+        return { label: "Hazardous", color: "#6D4C41" };
       default:
-        return { label: "Unknown", color: "#9E9E9E" }; // grey
+        return { label: "Unknown", color: "#9E9E9E" };
     }
   }
 
@@ -54,7 +54,7 @@ export default function HomeScreen() {
                     name="temperature-half"
                     size={42}
                     color="#F1FAEE"
-                  />{" "}
+                  />
                   {weather.current.temp_c}°C
                 </Text>
                 <Text
